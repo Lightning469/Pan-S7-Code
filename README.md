@@ -1,5 +1,5 @@
 # Pan-S7-Code
-FORTRAN code to generate Pan S7 Rayleigh-Brillouin scattering lineshape. Contains the following files:
+Repository contains the original FORTRAN code routine to generate the Pan S7 Rayleigh-Brillouin scattering lineshape for both spontaneous and coherent Rayleigh-Brillouin scattering based on the Boltzmann equation. Contains the following files:
 
 crbs_mol7_1.for - Main code.
 
@@ -11,7 +11,7 @@ qsimp.for - Subroutine to determine w0, the plasma dispersion function.
 
 trapzd.for - Called in qsimp for numerical integration.
 
-Originally developed Mikhail Shneider and Xingguo Pan, c. 2004.
-Theory is described in the following reference:
+This code was originally written by Mikhail Shneider and Xingguo Pan, c. 2004.
+The theory is described in the following reference:
 
 X. Pan, M. N. Shneider, and R. B. Miles, “Coherent Rayleigh-Brillouin scattering in molecular gases,” Phys. Rev. A, vol. 69, no. 3, p. 033814, Mar. 2004.
