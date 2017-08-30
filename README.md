@@ -3,13 +3,13 @@ FORTRAN code to generate Pan S7 Rayleigh-Brillouin scattering lineshape. Contain
 
 crbs_mol7_1.for - Main code.
 
-lubksb.for - Subroutine to solve the set of linear equations AX=B
+lubksb.for - Subroutine to solve the set of linear equations AX=B.
 
-ludcmp.for - Subroutine to replace a given matrix by the LU decomposition
+ludcmp.for - Subroutine to replace a given matrix by the LU decomposition.
 
-qsimp.for - Subroutine to determine w0, the plasma dispersion function
+qsimp.for - Subroutine to determine w0, the plasma dispersion function.
 
-trapzd.for - Called in qsimp for numerical integration
+trapzd.for - Called in qsimp for numerical integration.
 
 Originally developed Mikhail Shneider and Xingguo Pan, c. 2004.
 Theory is described in the following reference:
