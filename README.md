@@ -20,3 +20,5 @@ The theory is described in the following reference:
 X. Pan, M. N. Shneider, and R. B. Miles, “Coherent Rayleigh-Brillouin scattering in molecular gases,” Phys. Rev. A, vol. 69, no. 3, p. 033814, Mar. 2004.
 
 Any time this code (or transcript of it) is used in work related to an academic paper or publication, it MUST be mentioned that the S7 code was originally developed by Princeton and referenced by the above citation.
+
+- David Feng, 2017/9/7
