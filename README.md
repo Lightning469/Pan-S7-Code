@@ -12,7 +12,13 @@ Uhlenbeck equation in kinetic theory. Contains the following files:
 
 - trapzd.for - Called in qsimp for numerical integration.
 
-Also contained is a Matlab version of the Pan S7 FORTRAN code originally written by Emmanuel Stockman when he was a graduate student at Princeton University for those not savvy to FORTRAN.
+Also contained is a Matlab version of the Pan S7 FORTRAN code originally written by Emmanuel Stockman when he was a graduate student at Princeton University for those not savvy to FORTRAN. Additionally, I have included my own Matlab codes to generate Pan S7 lineshape profiles for a range of temperatures and pressures with additional control over the inputs to the function:
+
+- GeneratePanS7Lineshapes - Main code to generate lineshapes.
+
+- Mikhail_S7_ver3_plot_S7_lineshapes - Called by main code GeneratePanS7Lineshapes, adapted from Mikhail_S7.
+
+- Mikhail_S7 - Function original written by Emmanuel Stockman
 
 The FORTRAN code was originally written by Mikhail Shneider and Xingguo Pan, c. 2004.
 The theory is described in the following reference:
